@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'LibFFI'
+  s.name             = 'lib-ffi'
   s.version          = '0.1.1'
   s.summary          = 'ffi libarary for multi platform.'
 
@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'LibFFI/Classes/*.{h}'
-
+  
   s.static_framework = true
   
   s.vendored_libraries = 'LibFFI/Classes/*.{a}'
