@@ -31,15 +31,15 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LibFFI/Classes/**/*.{h}'
+  s.source_files = 'LibFFI/Classes/*'
   
-  s.vendored_libraries = 'LibFFI/Classes/**/*.{a}'
+  s.vendored_libraries = 'LibFFI/Classes/*.{a}'
   
   # s.resource_bundles = {
   #   'LibFFI' => ['LibFFI/Assets/*.png']
   # }
 
-  s.public_header_files = 'LibFFI/Classes/**/ffi.h'
+  s.public_header_files = 'LibFFI/Classes/ffi.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 
