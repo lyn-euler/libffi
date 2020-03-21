@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'LibFFI/Classes/*.{h}'
   
-  s.vendored_libraries = 'LibFFI/Classes/*.{a}'
+  s.vendored_libraries = 'LibFFI/libffi.a'
   
   # s.resource_bundles = {
   #   'LibFFI' => ['LibFFI/Assets/*.png']
