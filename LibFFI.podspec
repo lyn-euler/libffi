@@ -32,8 +32,10 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'LibFFI/Classes/*.{h}'
+
+  s.static_framework = true
   
-  s.vendored_libraries = 'LibFFI/*.a'
+  s.vendored_libraries = 'LibFFI/Classes/*.{a}'
   
   # s.resource_bundles = {
   #   'LibFFI' => ['LibFFI/Assets/*.png']
